@@ -42,7 +42,7 @@ MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://rick109_db_user:M9ZQhfUX6
 
 DISCORD_CLIENT_ID = os.environ.get("DISCORD_CLIENT_ID", "你的Discord應用程式ClientID")
 DISCORD_CLIENT_SECRET = os.environ.get("DISCORD_CLIENT_SECRET", "你的Discord應用程式ClientSecret")
-DISCORD_REDIRECT_URI = os.environ.get("DISCORD_REDIRECT_URI", "https://verify.yourdomain.com/oauth/callback")
+DISCORD_REDIRECT_URI = os.environ.get("DISCORD_REDIRECT_URI", "https://verify-ei0t.onrender.com/oauth/callback")
 DISCORD_BOT_TOKEN = os.environ.get("DISCORD_BOT_TOKEN", "你的機器人Token（跟bot.py同一支）")
 
 TURNSTILE_SITE_KEY = os.environ.get("TURNSTILE_SITE_KEY", "你的CloudflareTurnstileSiteKey")
